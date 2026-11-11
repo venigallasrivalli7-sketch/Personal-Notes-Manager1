@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Personal Notes Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>My Personal Notes</h1>
+
+    <input type="text" id="title" placeholder="Enter note title">
+
+    <textarea id="content"
+        placeholder="Write your notes here..."></textarea>
+
+    <button onclick="saveNote()">Save Note</button>
+
+    <input type="text" id="search"
+        placeholder="Search notes..." oninput="loadNotes()">
+
+    <div id="notes"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

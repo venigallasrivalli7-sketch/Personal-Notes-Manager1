@@ -1,0 +1,12 @@
+{
+  "name": "personal-notes-manager",
+  "version": "1.0.0",
+  "description": "Personal Notes Manager",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
